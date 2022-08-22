@@ -1,0 +1,21 @@
+/* syntax :-
+               p{
+                color : blue;
+                font-size : 12;
+               }
+
+
+
+               here,
+                p    : is selector jisme humein particu;ar style lagaani hai 
+               color : is the property name 
+
+
+*/
+p{
+    color : blue;
+    font-size: 12 ;
+   }
+
+
+   /* yahaan par html k saare paragraphs par mentioned property lag jaayegi */

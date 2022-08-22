@@ -1,0 +1,5 @@
+/* sabse pehle content aata hai jiski hum height and width change krte hain then usko ghere rehtaa hai border and border and content k bich k gap ko kehte hain PADDING then border se doosre element k bich k gap ko kehte hain margim so :- 
+CONTENT < PADDING < BORDER < MARGIN < DOOSRA_ELEMENT   
+aakhir kaar koi bhi element kitni jagah gher rahaa hai ye decide karega hamaara box model how lets see :- 
+total element width = width + left padding + right padding + left border + right border + left margin + right margin   
+total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin */

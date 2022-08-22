@@ -1,0 +1,56 @@
+/* 1.CHANGING THE COLOR OF THE TEXT
+color:red;
+2.ALLIGNMENT OF THE TEXT
+text-allign : centre or left or right or justify
+3.DIRECTION 
+direction : rtl #which means right to left
+4.agar koi image text k bich mai lagi hai and you want ki text ek dum image k top mai jaaye then you have to allign the image not text
+.img{
+    vertical-allign : top or bottom or middle 
+} 
+5.TEXT-DECORATION
+by default normal text k liye text-decoration none hota hai 
+secondly link k liye text-decoration underline hota hai 
+now we see, 
+selector{
+    text-decoration : underline or overline or line through
+}
+6.UPPER OR LOWER CASE OR CAPITALISATION : 
+selector{
+    text-transform : uppercase or lowercase or capitalize
+}
+7.LINE-HEIGHT : (do lino k bich ki height )
+selector{
+    line-height : 30px
+}
+8.TEXT-INDENT  : text hum chaahte hain ki line mai thoda gap chod kar shuru ho 
+selector{
+    text-indent : 50px
+}
+9.letter-spacing : letters k bich ka space 
+selector{
+    letter-spacing : 50px
+}
+10.WORD-SPACING : words k bich ka space 
+selector{
+    word-spacing : 10px
+}
+11.NOTE : html text k bich mai extra spaces nahi letaa hai wo 2 words k bich mai single space hi letaa hai but agar hum chaahte hain ki jaisa humne likha hai thik waisa hi aa jaaye with same no. of spaces between words then use - WHITE-SPACE : PRE tag
+selector{
+white-space  : pre 
+if 
+white space : no wrap #then wo ek hi line mai sab kuch likh degaa
+}
+12.NOTE  : agar hamaare paas koi bahut badaa word hai jo ki line mai nahi aa paa rahaa hai(means wo container width se badaa hai ) toh wo apne aap niche waali line mai shift ho jaayega but agar hum chaahte hai ki word break ho jaaye and aadha upar waali line mai aaye toh uska kuch part niche waali line mai aaye then , 
+selector{
+    word-wrap : break-word
+} 
+13.SHADOW IN TEXT : 
+text-shadow : horizontal vertical blur color
+horizontal(shadow ko right ya left move kartaa hai )
+vertical (shadow ko top ya bottom mai move karta hai)
+blur(agar humne 0 kar diya toh poora word dikhegaa )
+color : decide the color of the shadow 
+14.WRITING VERTICALLY : 
+writing-mode : verticle-rl {means border k right waali side mai vertically likha aayegaa }
+writing-mode : verticle-lr { means border k left waali side mai likha aayegaa vertically}*/

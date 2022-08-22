@@ -1,0 +1,16 @@
+/* agar humne height and width nahi diya hai toh uska value hota hai auto means jitna content hai utna hi hogaa height and width
+selector{
+    height : px or %
+    width :  px or %
+    note :=
+    kyunki hamaara div body k andar hai toh jab hum percentage mention karenge toh wo body ka utna percentage occupy kar legaa means percentafe parent par depend karta hai toh agar hum laptop se phone par shift honge toh parent ka size badlgaa isliye hamaare div ka bhi siz badal jaayega 
+}
+ */
+/* 
+max-width  :  500ox
+max-height : 200px
+means ab width and height issey jyaada nahi hogi
+similarly we have min-width and min-height also*/
+
+
+

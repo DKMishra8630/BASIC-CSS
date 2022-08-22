@@ -1,0 +1,67 @@
+/* TYPES OF SELECTORS: 
+(1)ELEMENT SELECTOR 
+(2)ID SELECTOR
+(3)CLASS SELECTOR
+(4)ATTRIBUE SELECTOR
+(5)PSEUDO CLASS SELECTOR
+(6)and many more ..... we will learn it later
+ */
+
+
+ /* combined seleectors IN CSS FILE :-
+    h1,p,selector_3,....{
+        properties:values;
+    }
+ */
+
+
+ /* (1)element selector :-
+p,h1,h2{
+    properties : value;
+}
+
+
+(2)class selector :-
+.classname{
+    property : value ;
+}
+
+(3)id selector:-
+#idname{
+    property:value;
+}
+  */
+
+
+  /* NOTE:- 
+  SAME CLASS CAN BE USED MULTIPLE TIMES IN HTML .......
+  AND IN A SINGLE ELEMENT MULTIPLE CLASS CAN BE APPLIED.....
+  BUT ID IS ALWAYS UNIQUE & IT IS APPLIED ONLY SINGLE TIME IN HTML DOCUMENT & WE CANNOT APPLY MULTIPLES ID TO A SINGLE DOCUMENT */
+ 
+ 
+  /*NOTE :- 
+  SPECIFICITY OF SELECTORS OR PRIORITY OF SELECTORS:-
+  INLINE CSS > ID SELECTOR > CLASS SELECTOR(jo baad mai mention ho) > CLASS SELECTOR(jo pehle mention ho) > ELEMENT SELECTOR OR TYPE SELECTOR   */
+
+  /* TO SEE THE USE OF THE SELECTORS GO CSS NEW THEN TO THE SELECTORS  */
+
+
+/* NOW SEE THE PRACTICAL */
+p{
+    color:gold;
+}
+.red{
+    color:red;
+}
+.blue{
+    color:blue;
+}
+.green{
+    color:green;
+}
+#greencolor{
+    color:green;
+}
+#bluecolor{
+    color:blue;
+}

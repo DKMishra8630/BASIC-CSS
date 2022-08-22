@@ -1,0 +1,31 @@
+/* PADDING:- 
+padding means the gap between the content and the border  */
+/* padding-top : 50px or 50%
+padding-left : 50px
+padding-bottom : 
+padding-right  : 
+padding : 25px     #har side se content and border k bich ka gap 25px hi ho jaayegaa
+padding : top bottom , left right
+padding : top , right , bottom , left
+*/
+/* MARGIN :- 
+border k baahar ka area jiskey andar koi aur element na aaye usko margin kehte hain 
+margin-top  : 50px
+margin-bottom : 50px
+margin-right : 50px
+margin-left : 50px
+SHORTCUT
+margin : top , right , bottom , left
+margin : top bottom , left right
+ */
+ /* NOTE :- 
+ PADDING mai hum value negative nahi de sakte hain 
+ while
+ MARGIN ki value hum negative bhi de sakte hain and agar humne margin ki value -ve de di then wo doosre or us side waale element mai ghus jaayegaa
+
+NOTE :- 
+margin collapse ho jaati hai means agar do taraf se margin de di jaaye then wo badi waali margin hi count ki jaayegi(this thing is only happen with top and bottom only)
+agar left and right ki baat aa jaaye then margin bhi collapse nahi karti hai  means agar do element mai same sside de di jaaye then wo add ho jaayegi 
+*/
+/* agar kisi object ko humein centre mai lana ho toh use auto in margin :- 
+margin : auto  */

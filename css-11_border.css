@@ -1,0 +1,40 @@
+/* BORDER :- 
+selector{
+    border-style : solid ; 
+    we can give multiple types of borders example : solid , dashed , dotted , double , groove(frame sa banke aata hai) , outset , inset , ridge(groove ka ulta) , none
+
+} */
+
+/* NOTE :- 
+border-size : top , bottom 
+border-size : top , right , bottom , left (clockwise direction mai ghumaa do )
+*/
+
+/* similarly , hum chaaro sides ka border alag alag de sakte hain example :- 
+border-style : solid , dashed , dotted , double
+again the sequence remains the same that is top , right , bottom , left *
+
+if we give two valyes that simply means :- 
+border-style : top bottom , left right
+/
+
+/* BORDER-COLOR
+ border color : red                             #this is for all sides
+ border-color : red , yellow                    #top bottom : red     left , right : yellow
+ baaki remains the same na  */
+
+ /* BORDER SHORTCUT :- 
+ border : width px , style , color */
+
+ /* NOTE : 
+ agar aap chaahte ho ki kewal top mai hi border aaye then , 
+ border-top-style  : solid */
+
+ /* BORDER RADIUS : 
+ corners se curve banaane k liye value can be given in pixels as well as percentage
+ border-radius : 10px
+ border-radius : top bottom , left right
+ border-radius : top , right , bottom , left
+ border-top-right-radius  : ....px */
+
+

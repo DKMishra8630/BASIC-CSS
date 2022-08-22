@@ -1,0 +1,49 @@
+/* background image  :- 
+ hum background aaram se lagaa sakte hai by using :
+selector{
+    background-image: url("location_path")
+}
+NOTE :- 
+ABOVE CASE MAI image baar baar repeat hokar lag jaayegi 
+AGAR hum chaahte hain ki single image hi lage without any repeatition then we have to use some keywords
+background-repeat : no-repeat
+agar mai chaahta hoon ki x axis mai repeat ho then we write : 
+background-repeat : repeat-x ; means repeat about x axis
+agar mai chaahta hoon ki kewal y axis mai repeat ho then :
+background-repeat : repeat-y
+
+ */
+ /* SETTING THE POSITION OF THE BACKGROUND_METHOD1 :-  
+ background-position : x axis k along position , y axis k along position
+example :
+bakground-position : right, centre 
+ab wo cheej page k right mai chali jaayegi and y axis k along center mai aa jaayegi
+
+
+SETTING THE POSITION OF THE BACKGROUND_METHOD2 :- 
+background-position : 10%, 50% 
+means kyunki hamaara image body k andar hai isliye wo ab body k height and width k hisaab se unka percentage legaa and x axis and y axis mai utna hi gap chod degaa*/
+
+/* ADJUSTING THE SIZE :-
+background-size : 700px, 500px
+means along x axis and y axis 
+now you can also give this value in percentage 
+background-size : 100%, 100% or cover
+means ye 100% page ko cover kar legaa */
+
+/* NOTE :- 
+There are two things in background-size : (1)cover (2)contain 
+(1)agar hum cover ki baat karein toh wo 100% jagah ko occupy kar legaa but wo thodi si image ko apne browser k hisaab se kaat degaa means alag alag browsers alag alag kati hui image dikhaayenge toh isliye usey hum tabhi use karte hain jab hum koi pattern lagaa rahe hote hain jiske katne se humein koi bhi affect na pade 
+(2)contain : ye image ko bina distort kiye means uskey aspect ratio ko banaaye rakhte hue poora 100% cover karne ki koshish kartaa hai but har baar 100% cover kar de aisa jaroori nahi hai
+and agar aap chaahte ho bina kate poora bhar jaaye then ensure ki div and image ka aspect ratio baraabar hona chaahiye */
+
+/* ATTACHEMENT :- 
+bakground-attachement : fixed or ...... try it */
+
+/* BACKGROUND ALL PROPERTIES SHORTCUT :- 
+background : color  image_url   repeat  attachement  position */
+
+/*  MULTIPLE BACKGROUND :- 
+background-image : url(..........) , url(............)
+background-position : left top , right bottom
+*/

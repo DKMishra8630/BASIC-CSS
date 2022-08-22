@@ -1,0 +1,20 @@
+/* jaisa ki humne pehle text-decoration mai dekha tha ki by default link mai underline aati hai agar hum us underline ko hataana chaahte hain toh text-decpration : none karna hogaa
+NOTE : LINK in html are in 4 states : -
+(a) :link         #normally jaise hi hum kholte hain
+(b) :visited      # visited kiya hua link
+(c) :hover        #jab hum link k upar mouse le jaate hain
+(d) :active       #jab hum mouse se click karke rakhte hain
+
+AB HUM STATE KO KAISE DEFINE KARENGE :- 
+selector:link{
+
+} 
+
+NOTE :- 
+link aur visited hamesha hover se upar hone chaahiye 
+secondly , active hamesha sabse niche honi chaahiye 
+so what`s the order 
+link, visited > hover > active
+
+
+*/

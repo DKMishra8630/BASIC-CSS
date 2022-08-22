@@ -1,0 +1,65 @@
+/* IN CSS COLORS CAN BE SPECIFIED USING :-
+(1)PREDEFINED : just like pink, red, blue and so on .......
+(2)RGB:
+(3)RGBA
+(4)HEX
+(5)HSL
+(6)HSLA
+*/
+
+
+/* NOTE : 
+HUM RED, BLUE, GREEN color k mixture se koi bhi color banaa sakte hain 
+RGB(SPECIFY THE RATIO )
+THE VALUES OF THE COLORS VARIES  FROM  '0' TO '255'  
+BLACK : rgb(0,0,0)
+WHITE : rgb(255,255,255)
+RED : rgb(255,0,0)
+GREEN :rgb(0,255,0)
+BLUE : rgb(0,0,255) */
+
+/* NOTE :- 
+RGBA - RED,GREEN,BLUE,ALPHA 
+here red green blue required color produce karte hain while alpha transperency decide kartaa hai 
+alpha ki value 0.0(fully transparent) to 1.0(not transparent at all) tak vary karti hai
+means alpha ki value jaise jaise ghataate jaaoge waise waise transperency badti jaayegi */
+
+/* HEX :- 
+#rrggbb
+similar to rgb color code 
+bas yahaan par hum hexa decimal format mai color ko mention karenge
+example:- 
+RED : #ff0000 "first two letters are for red""second two letters are for green""third two letters are for blue"
+BLACK : #000000
+WHITE : #ffffff */
+
+/* HSL :- 
+HUE, SATURATION, LIGHTNESS(HSL)
+HUE : COLOR WHEEL WITH DEGREE : EXAMPLE 0DEGREE: RED
+SATURATION : DECIDE THE DARKNESS OF THE COLOR VARIES FROM 0 TO 100 %
+LIGHTNESS : 0% IS BLACK , 50% NEITHER LIGHT NOR DARK, 100% WHITE */
+
+/* HSLA :- 
+A: STANDS FOR ALPHA WHICH DECIDES THE TRANSPERANCY VARIES FROM 0.0 TO 1.0
+HSLA(0,100%,50%,0.5)  */
+
+
+/* lets see each of them one by one  */
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.background_rgb{
+    background-color: rgb(146, 240, 70);
+}
+.background_rgba{
+    background-color: rgba(146, 240, 70, 50%);
+}
+.hsl{
+    background-color: hsl(189, 80%, 44%);
+}
+.hsla{
+    background-color: hsla(189, 80%, 50%, 50%);
+}
